@@ -5,18 +5,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/2b79cd20ca.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.js"></script>
     <link rel="stylesheet" href="css/style.css">
     <title>Boolzapp</title>
 </head>
 <body>
     <div class="container-plus">
-    </div>
         <div class="container">
             <div class="main-windows">
                 <div class="list-messages">
                     <div class="navbar-messages pad-rl">                            <!-- nome utente sx -->
                         <div class="user">
-                            <img src="img/avatar_1.jpg" alt="user-profile-image">
+                            <img src="img/avatar_io.jpg" alt="user-profile-image">
                             <span>Nome utente</span>
                         </div>
                         <!-- 3 font font-icons dx -->
@@ -34,23 +34,61 @@
                         <!-- ricevi notifiche di nuovi messaggi -->
                         <div class="silenz-notice">
                             <span>Ricevi notifiche di nuovi messaggi</span>
-                            <span class="subtitle">Attiva notifiche desktop</span>
+                            <a href='' class="subtitle">Attiva notifiche desktop</span>
                         </div>
                     </div>
-                    <div class="search-messages">
-                        <!-- text area -->
+                    <div class="search-messages pad-top-bot pad-rl">
+                        <div class="container-search">
+                            <div class="lente pad-rl">
+                                <i class="fas fa-search"></i>
+                            </div>
+                            <!-- text area -->
+                            <input type="text" placeholder="Cerca o inizia una nuova chat">
+                        </div>
                     </div>
-                    <div>
+                    <div class="cronology">
                         <!-- lista di messaggi -->
+                        <div id="app" class="friend">
+                            <img src="img/avatar_1.jpg" alt="user-profile-image">
+                            <span>{{ name }}</span>
+                        </div>
+                        <div class="friend">
+                            <img src="img/avatar_2.jpg" alt="user-profile-image">
+                            <span>Nome utente</span>
+                        </div>
+                        <div class="friend">
+                            <img src="img/avatar_3.jpg" alt="user-profile-image">
+                            <span>Nome utente</span>
+                        </div>
+                        <div class="friend">
+                            <img src="img/avatar_4.jpg" alt="user-profile-image">
+                            <span>Nome utente</span>
+                        </div>
+                       
                     </div>
                     
-
+                    
                 </div>
                 <div class="chat">
-                    <div class="navbar-chat">
+                    <div class="navbar-chat pad-rl pad-top-bot">
                         <!-- nome ricevente -->
                         <!-- ultimo accesso -->
                         <!-- 3 font icons -->
+                        <div class="friend-chat-img">
+                            <!-- <img src="img/avatar_io.jpg" alt="user-profile-image"> -->
+                            <span>ciao</span>
+                        </div>
+                        <div class="info">
+                            <span>Nome utente</span>  
+                            <span>ultimo accesso</span>
+                        </div>
+                        <div class="friend-icons">
+                            <i class="fas fa-comment-alt"></i>
+                            <i class="fas fa-comment-alt"></i>
+                            <i class="fas fa-comment-alt"></i>
+
+                        </div>
+
                     </div>
                     <div class="main-chat">
                         <!-- fumetti -->
@@ -63,10 +101,11 @@
                 </div>
             </div>
         </div>
-
-    <script src="js/script.js"></script>
-</body>
-</html>
+    </div>
+        
+        <script src="js/script.js"></script>
+    </body>
+    </html>
 
 <!-- container> main-windows
 
@@ -77,4 +116,3 @@ avatar vari
 chat è strutturato da:
 - navbar > ricevente, ultimo accesso // 3 font-icons
 - main (background wh) // fumetti chat colorati
-footer // font-icon, text area, font-icon -->
