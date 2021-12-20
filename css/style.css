@@ -80,10 +80,56 @@ html {
 }
 
 
-/* .silenzioso {
-    height: 20px;
+.silenzioso {
+    height: 10%;
     background-color: aqua;
-} */
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.silenz-icon {
+    background-color: white;
+    color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 4em;
+    height: 3em;
+    border-radius: 100%;
+}
+
+.silenz-notice {
+    font-size: 90%;
+    margin-left: 3px;
+}
+
+.subtitle {
+    color: gray;
+    text-decoration: underline;
+    font-size: 80%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
