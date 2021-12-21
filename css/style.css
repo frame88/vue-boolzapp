@@ -84,13 +84,12 @@ html {
 .user-icons {
     display: flex;
     width: 30%;
-    justify-content: end;
+    justify-content: space-between;
     color: gray;
 }
 
 .user-icons i {
     margin: 3px;
-    font-size: 130%;
 }
 
 
@@ -104,13 +103,12 @@ html {
 
 .silenz-icon {
     background-color: white;
-        color: rgb(108, 224, 253);
-
+    color: rgb(108, 224, 253);
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 4em;
-    height: 3em;
+    width: 50px;
+    height: 50px;
     border-radius: 100%;
 }
 
@@ -164,8 +162,10 @@ html {
     */
 }
 
-.friend-icons i {
-    margin: 5px;
+.friend-icons  {
+    width: 15%;
+    display: flex;
+    justify-content: space-between;
 }
 
 .friend img{
@@ -210,6 +210,8 @@ html {
     align-self: center;
     margin-left: 3px;
 }
+
+
 
 .friend-chat-img img {
     border-radius: 50%;
