@@ -20,8 +20,8 @@ html {
 }
 
 .pad-rl {
-    padding-right: 5px;
-    padding-left: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
 }
 
 /*_______________________________________*/
@@ -66,10 +66,15 @@ html {
     align-items: center;
 }
 
+.navbar-img img {
+    border-radius: 50%;
+    width: 50px;
+}
+
 .user {
     display: flex;
     align-items: center;
-    width: 70%;
+    width: 75px;
 }
 
 .user img {
@@ -86,6 +91,7 @@ html {
     width: 30%;
     justify-content: space-between;
     color: gray;
+    font-size: 130%;
 }
 
 .user-icons i {
@@ -163,9 +169,10 @@ html {
 }
 
 .friend-icons  {
-    width: 15%;
     display: flex;
     justify-content: space-between;
+    color: gray;
+    width: 75px;
 }
 
 .friend img{
@@ -198,12 +205,24 @@ html {
 
 .sx-part {
     display: flex;
+    width: 50%;
 }
 
 .friend-chat-img {
     display: flex;
 }
     
+.friend-chat-img img {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    align-self: center;
+}
+
+.friend-chat-img span {
+    width: 80%;
+}
+
 .info {
     display: flex;
     flex-direction: column;
@@ -211,14 +230,8 @@ html {
     margin-left: 3px;
 }
 
-
-
-.friend-chat-img img {
-    border-radius: 50%;
-}
-
-.friend-chat-img span {
-    width: 80%;
+.last-view {
+    color: gray;
 }
 
 .friend-icons {
