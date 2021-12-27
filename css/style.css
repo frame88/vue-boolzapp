@@ -106,7 +106,7 @@ input[type = 'text'] {
 
 .user-icons {
     display: flex;
-    width: 75px;
+    width: 85px;
     justify-content: space-between;
     font-size: 130%;
 }
@@ -196,6 +196,11 @@ input[type = 'text'] {
     width: 15%;
 }
 
+.friend-sx img{
+    text-align: center;
+    vertical-align: middle;
+}
+
 .friend-center {
     display: flex;
     flex-direction: column;
@@ -253,7 +258,7 @@ input[type = 'text'] {
 .friend-icons  {
     display: flex;
     justify-content: space-between;
-    width: 75px;
+    width: 85px;
 }
 
 .info {
@@ -281,6 +286,22 @@ input[type = 'text'] {
     background-size: contain;
     background-position: center;
     height: 80%;
+}
+
+.message {
+    display: flex;
+    flex-direction: column;
+    background: white;
+    width: 60%;
+    padding: 5px;
+    margin: 10px; /*rompre tutto*/
+    border-radius: 20px;
+    
+}
+
+.sent {
+    align-self: end;
+    background: purple;
 }
 
 .footer-chat {
@@ -331,8 +352,20 @@ input[type = 'text'] {
 }
 
 .fa-microphone:hover {
-    color: rgb(89, 255, 47);
+    color: rgb(42, 211, 0);
 }
+
+.subtitle:hover {
+    color: blue;
+}
+
+.text-area-footer input:hover{
+    border: 2px solid gray;
+}
+
+
+
+
 
 
 
